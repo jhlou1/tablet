@@ -163,7 +163,7 @@ header{
   text-align: center;
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 600px){
   .text-block{
     background-color: rgba(255, 255, 255, .8);
     border: 5px solid white;
@@ -257,18 +257,6 @@ header{
     row-gap: 20px;
   }
 
-  .about-header{
-    background-attachment: fixed; /* Parallax effect */
-    background-position: center; /* Parallax effect */
-    background-size: cover; /* Parallax effect */
-    color: black;
-    height: 500px; /* Parallax effect */
-    background-image: url("../images/about.JPG");
-    background-repeat: no-repeat;
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    grid-column: 1/-1;
-  }
   .about-header h1{
     text-align: left;
     padding-left: 30px;
