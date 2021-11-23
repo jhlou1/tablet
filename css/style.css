@@ -111,7 +111,7 @@ header{
   background-size: cover; /* Parallax effect */
   color: black;
   height: 500px; /* Parallax effect */
-  background-image: url("../images/about.JPG");
+  background-image: url("../images/about.jpg");
   background-repeat: no-repeat;
   grid-row-start: 1;
   grid-row-end: span 1;
